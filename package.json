@@ -1,0 +1,34 @@
+{
+  "name": "graphql-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "prestart": "eslint server.js",
+    "lint": "eslint server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leviathan73/graphql-intro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leviathan73/graphql-intro/issues"
+  },
+  "homepage": "https://github.com/leviathan73/graphql-intro#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.4.0",
+    "graphql-tools": "^7.0.2",
+    "oracledb": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "nodemon": "^2.0.7",
+    "watch": "^1.0.2"
+  }
+}
